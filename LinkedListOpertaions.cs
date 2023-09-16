@@ -31,6 +31,17 @@ namespace LinkedListAssignment
 
         }
 
+        internal Node removeFirstNode()
+        {
+            if(this.head==null)
+            {
+                return null;
+            }
+            this.head=this.head.Next;
+            return this.head;
+
+        }
+
         public void DisplayData()
         {
             if (head == null)

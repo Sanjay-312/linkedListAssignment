@@ -10,9 +10,10 @@ namespace LinkedListAssignment
             list.addData(56);
             list.addData(30);
             list.addData(70);
-            
-            
+            list.DisplayData();
 
+            list.removeFirstNode();
+            Console.WriteLine("linked list after deleting first node");
             list.DisplayData();
 
 
