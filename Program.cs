@@ -16,9 +16,13 @@ namespace LinkedListAssignment
             //Console.WriteLine("linked list after deleting first node");
             //list.DisplayData();
 
-            list.removeLastNode();
-            Console.WriteLine("linked list after removing last node");
-            list.DisplayData();
+            //list.removeLastNode();
+            //Console.WriteLine("linked list after removing last node");
+            //list.DisplayData();
+
+             
+            Console.WriteLine(list.SearchNode(30));
+
 
         }
     }

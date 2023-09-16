@@ -63,6 +63,21 @@ namespace LinkedListAssignment
             return head;
         }
 
+        internal Node SearchNode(int value)
+        {
+            while(this.head!=null)
+            {
+                if (this.head.data==value)
+                {
+                    return this.head;
+
+                }
+                this.head = this.head.Next;
+            }
+            return null;
+
+        }
+
         public void DisplayData()
         {
             if (head == null)
