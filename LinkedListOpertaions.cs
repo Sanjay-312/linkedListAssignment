@@ -42,6 +42,27 @@ namespace LinkedListAssignment
 
         }
 
+        internal Node removeLastNode()
+        {
+            if (head == null)
+            {
+                return null;
+            }
+
+            if(head.Next==null)
+            {
+                return null;
+            }
+
+            Node newNode = head;
+            while(newNode.Next.Next!=null)
+            {
+                newNode= newNode.Next;
+            }
+            newNode.Next = null;
+            return head;
+        }
+
         public void DisplayData()
         {
             if (head == null)

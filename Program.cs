@@ -12,10 +12,13 @@ namespace LinkedListAssignment
             list.addData(70);
             list.DisplayData();
 
-            list.removeFirstNode();
-            Console.WriteLine("linked list after deleting first node");
-            list.DisplayData();
+            //list.removeFirstNode();
+            //Console.WriteLine("linked list after deleting first node");
+            //list.DisplayData();
 
+            list.removeLastNode();
+            Console.WriteLine("linked list after removing last node");
+            list.DisplayData();
 
         }
     }
